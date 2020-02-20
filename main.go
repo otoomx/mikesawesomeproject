@@ -4,6 +4,7 @@ import (
 	"os"
 
 	log "github.com/sirupsen/logrus"
+	"gitlab.com/miketerribleproject"
 )
 
 func init() {
@@ -20,5 +21,5 @@ func init() {
 
 func main() {
 
-	log.Info("Simple Test")
+	log.Info(miketerribleproject.ProjectName)
 }
